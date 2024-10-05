@@ -21,7 +21,7 @@ public:
     int area();
     int perimeter();
     bool isSquare();
-    ~Rectangle();
+    ~Rectangle();   // // Destructor:It ensures proper cleanup of resources that the object was managing before it is destroyed.
 };
 
 int main()
